@@ -7,6 +7,7 @@ Today
 
 1. Linq Examples
 1. [Deck of Cards](http://deckofcardsapi.com/)
+1. Using [Rest Sharp] (http://restsharp.org/)
 ```c#
              var client = new RestClient("http://deckofcardsapi.com");
 
