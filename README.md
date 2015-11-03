@@ -28,4 +28,3 @@ Create a console app that connects to the Deck of Cards API above. Your app shou
 4. Indicate which hand has the highest value and what that value is.
 5. Show the min and max card for each hand.
 6. Display which hand has the most hearts.
-* You'll make the request in the Controller, sending data to the View
