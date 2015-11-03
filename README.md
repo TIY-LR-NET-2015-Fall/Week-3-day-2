@@ -9,9 +9,9 @@ Today
 1. [Deck of Cards](http://deckofcardsapi.com/)
 1. Using [Rest Sharp] (http://restsharp.org/)
 ```c#
-             var client = new RestClient("http://deckofcardsapi.com");
+             var client = new RestClient("http://deckofcardsapi.com/api/deck");
 
-            var request = new RestRequest("api/deck/new/shuffle/?deck_count=1", Method.GET);
+            var request = new RestRequest("new/shuffle/?deck_count=1", Method.GET);
 
             IRestResponse<DeckResponse> response = client.Execute<DeckResponse>(request);
             DeckResponse info = response.Data; 
